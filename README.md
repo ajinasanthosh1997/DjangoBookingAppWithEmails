@@ -32,9 +32,8 @@ This is a Django-based web application for handling bookings. Users can create b
 
 5. Create and apply database migrations:
 
-   python manage.py makemigrations
-
-   python manage.py migrate
+   - python manage.py makemigrations
+   - python manage.py migrate
 
 6. Create a .env file in the project root with the necessary settings:
 
@@ -62,14 +61,14 @@ This is a Django-based web application for handling bookings. Users can create b
 
    Access the application at http://127.0.0.1:8000/
 
-8. Usage
+### Usage
    
-   Open your web browser and go to http://127.0.0.1:8000/
+   - Open your web browser and go to http://127.0.0.1:8000/
 
-   Visit the booking form page.
+   - Visit the booking form page.
 
-   Fill in the required details and submit the form.
+   - Fill in the required details and submit the form.
 
-   You will be redirected to the booking success page.
+   - You will be redirected to the booking success page.
 
-   Check your email for the booking confirmation.
+   - Check your email for the booking confirmation.
