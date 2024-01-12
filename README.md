@@ -5,7 +5,9 @@ This is a Django-based web application for handling bookings. Users can create b
 ## Features
 
 - User-friendly booking creation form.
+  
 - Email confirmation for successful bookings.
+  
 - Responsive design for various devices.
 
 ## Getting Started
@@ -13,6 +15,7 @@ This is a Django-based web application for handling bookings. Users can create b
 ### Prerequisites
 
 - Python (3.6 or higher)
+- 
 - Django (3.2 or higher)
 
 ### Installation
@@ -33,6 +36,7 @@ pip install -r requirements.txt
 5. Create and apply database migrations:
 
 python manage.py makemigrations
+
 python manage.py migrate
 
 6. Create a .env file in the project root with the necessary settings:
@@ -64,7 +68,11 @@ Access the application at http://127.0.0.1:8000/
 8. Usage
    
 Open your web browser and go to http://127.0.0.1:8000/
+
 Visit the booking form page.
+
 Fill in the required details and submit the form.
+
 You will be redirected to the booking success page.
+
 Check your email for the booking confirmation.
