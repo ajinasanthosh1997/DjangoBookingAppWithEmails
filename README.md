@@ -5,9 +5,7 @@ This is a Django-based web application for handling bookings. Users can create b
 ## Features
 
 - User-friendly booking creation form.
-  
 - Email confirmation for successful bookings.
-  
 - Responsive design for various devices.
 
 ## Getting Started
@@ -15,7 +13,6 @@ This is a Django-based web application for handling bookings. Users can create b
 ### Prerequisites
 
 - Python (3.6 or higher)
-- 
 - Django (3.2 or higher)
 
 ### Installation
