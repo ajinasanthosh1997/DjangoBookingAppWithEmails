@@ -24,52 +24,52 @@ This is a Django-based web application for handling bookings. Users can create b
    
 2. Navigate to the project directory:
 
-cd django-booking-project
+   cd django-booking-project
 
 3. Install dependencies:
 
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 5. Create and apply database migrations:
 
-python manage.py makemigrations
+   python manage.py makemigrations
 
-python manage.py migrate
+   python manage.py migrate
 
 6. Create a .env file in the project root with the necessary settings:
 
-DEBUG=True
+   DEBUG=True
+   
+   SECRET_KEY=your_secret_key
+   
+   EMAIL_BACKEND=django.core.mail.backends.smtp.EmailBackend
+   
+   EMAIL_HOST=your_email_host
+   
+   EMAIL_PORT=your_email_port
+   
+   EMAIL_USE_TLS=True
+   
+   EMAIL_HOST_USER=your_email@example.com
+   
+   EMAIL_HOST_PASSWORD=your_email_password
 
-SECRET_KEY=your_secret_key
-
-EMAIL_BACKEND=django.core.mail.backends.smtp.EmailBackend
-
-EMAIL_HOST=your_email_host
-
-EMAIL_PORT=your_email_port
-
-EMAIL_USE_TLS=True
-
-EMAIL_HOST_USER=your_email@example.com
-
-EMAIL_HOST_PASSWORD=your_email_password
-
-DEFAULT_FROM_EMAIL=your_email@example.com
+   DEFAULT_FROM_EMAIL=your_email@example.com
 
 7. Run the development server:
 
-python manage.py runserver
+   python manage.py runserver
 
-Access the application at http://127.0.0.1:8000/
+   Access the application at http://127.0.0.1:8000/
 
 8. Usage
    
-Open your web browser and go to http://127.0.0.1:8000/
+   Open your web browser and go to http://127.0.0.1:8000/
 
-Visit the booking form page.
+   Visit the booking form page.
 
-Fill in the required details and submit the form.
+   Fill in the required details and submit the form.
 
-You will be redirected to the booking success page.
+   You will be redirected to the booking success page.
 
-Check your email for the booking confirmation.
+   Check your email for the booking confirmation.
