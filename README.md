@@ -24,11 +24,11 @@ This is a Django-based web application for handling bookings. Users can create b
    
 2. Navigate to the project directory:
 
-   cd django-booking-project
+   - cd django-booking-project
 
 3. Install dependencies:
 
-   pip install -r requirements.txt
+   - pip install -r requirements.txt
 
 5. Create and apply database migrations:
 
@@ -57,7 +57,7 @@ This is a Django-based web application for handling bookings. Users can create b
 
 7. Run the development server:
 
-   python manage.py runserver
+   - python manage.py runserver
 
    Access the application at http://127.0.0.1:8000/
 
