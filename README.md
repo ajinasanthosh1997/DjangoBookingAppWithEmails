@@ -1,4 +1,4 @@
-# Django Booking Project
+# Django Sample Booking Project
 
 This is a Django-based web application for handling bookings. Users can create bookings through a web interface, and the system sends confirmation emails.
 
