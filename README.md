@@ -24,7 +24,7 @@ This is a Django-based web application for handling bookings. Users can create b
    
 2. Navigate to the project directory:
 
-   - cd booking-project
+   - cd booking_project
 
 3. Install dependencies:
 
