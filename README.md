@@ -28,7 +28,7 @@ This is a Django-based web application for handling bookings. Users can create b
 
 3. Install dependencies:
 
-   - pip install -r requirements.txt
+   - pip install -r req.txt
 
 5. Create and apply database migrations:
 
