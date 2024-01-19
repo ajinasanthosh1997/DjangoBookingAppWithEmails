@@ -5,39 +5,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booking Confirmation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-TsZ0HJ5un8EftmqUcR2RbC5apQxYo1P0ZcxNiiwOJOPTeD7NdmAuRbPw+8RIq7AH9eJhavZRMydrbI9zCuPR4w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             margin: 0;
             padding: 20px;
-            background-color: #f4f4f4;
+            background-color: #f9f9f9;
             color: #333;
         }
-
+        
         h2 {
             color: #007BFF;
+            border-bottom: 2px solid #007BFF;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-
+        
         p {
             color: #555;
             margin-bottom: 15px;
         }
-
+        
         ul {
             list-style-type: none;
             padding: 0;
             margin: 0;
         }
-
+        
         li {
             margin-bottom: 5px;
         }
-
+        
         strong {
             font-weight: bold;
         }
-
+        
         .confirmation-container {
             max-width: 600px;
             margin: auto;
@@ -46,17 +56,26 @@
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-
+        
         .thank-you {
             color: #28a745;
             font-size: 18px;
             font-weight: bold;
+            margin-bottom: 20px;
         }
-
+        
         .details {
             margin-top: 20px;
         }
-
+        
+        .icon {
+            color: #28a745;
+            margin-right: 5px;
+            border: 1px solid #28a745; /* Add border to the icon */
+            border-radius: 4px; /* Add border-radius for rounded corners */
+            box-shadow: 0 0 5px rgba(40, 167, 69, 0.5); /* Add box shadow to the icon */
+        }
+        
         .footer {
             margin-top: 20px;
             text-align: center;
@@ -68,12 +87,12 @@
 
 <body>
     <div class="confirmation-container">
-        <h2>Booking Confirmation</h2>
+        <h2><i class="far fa-calendar-check icon"></i> Booking Confirmation</h2>
         <p class="thank-you">Dear {{ booking.name }},</p>
         <p class="thank-you">Thank you for your booking. Your details are confirmed.</p>
         <div class="details">
             <ul>
-                <li><strong>Date:</strong> {{ booking.date }}</li>
+                <li><i class="far fa-calendar icon"></i> <strong>Date:</strong> {{ booking.date }}</li>
                 <!-- Add other booking details as needed -->
             </ul>
         </div>

@@ -8,6 +8,18 @@ from django.template.loader import render_to_string
 from django.utils.html import strip_tags
 from django.conf import settings
 
+
+def index(request):
+    return render(request,'bookings/index.html')
+
+def contact(request):
+    # You can add any necessary logic here
+    return render(request, 'bookings/contact.html')
+
+def about(request):
+    # You can add any necessary logic here
+    return render(request, 'bookings/about.html')    
+
 def create_booking(request):
     if request.method == 'POST':
         form = BookingForm(request.POST)

@@ -1,0 +1,19 @@
+<!-- yourprojectname/yourappname/templates/yourappname/home.html -->
+
+{% extends 'bookings/base.html' %}
+
+{% block title %}Welcome to Your Booking App{% endblock %}
+
+{% block content %}
+<div class="section" style="flex: 1;">
+    <section style="text-align:center;">
+        <h1 style="color:#007bff;">Welcome to Your Booking App</h1>
+        <p>Book your appointments hassle-free with our user-friendly booking system.</p>
+
+        <!-- Button to trigger the styled modal -->
+        <a href="{% url 'bookings:create_booking' %}" styel="">Book Now</a>
+    </section>
+</div>
+
+
+{% endblock %}
